@@ -150,7 +150,7 @@ function draw() {
     }
   } else {
     //no solution
-
+    document.querySelector(".fail").classList.remove("hidden");
     console.log("no solution");
     noLoop();
     return "No Solution";
