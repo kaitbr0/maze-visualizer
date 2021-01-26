@@ -1,7 +1,7 @@
 const { Engine, Render, Runner, World, Bodies, Body, Events } = Matter;
 
-const numCellsAcross = 15;
-const numCellsVert = 15;
+const numCellsAcross = 22;
+const numCellsVert = 22;
 const width = window.innerWidth;
 const height = window.innerHeight;
 const unitLengthX = width / numCellsAcross;
@@ -159,6 +159,10 @@ const colors = {
   35: "pink",
   36: "pink",
   37: "pink",
+  38: "red",
+  39: "red",
+  40: "red",
+  41: "red",
 };
 
 horizontalWalls.forEach((row, rowIdx) => {
