@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+    <title>Maze</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      .hidden {
+        display: none !important;
+      }
+      h1 {
+        color: white;
+        font-size: 40px;
+      }
+      .winner {
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        position: absolute;
+        z-index: 1;
+        height: 100vh;
+        width: 100vw;
+        padding-left: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="winner hidden">
+      <h1>You Win! Refresh to play again</h1>
+    </div>
+    <script src="./demoMaze.js"></script>
+  </body>
+</html>
