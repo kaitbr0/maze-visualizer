@@ -103,6 +103,7 @@ function setup() {
 function draw() {
   if (openSet.length > 0) {
     //keep going
+
     let lowestIdx = 0;
 
     for (let i = 0; i < openSet.length; i++) {
